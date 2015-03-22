@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<frame marginwidth="pixels">
+<html lang="en">
+
+
+<head>
+
+
+  <meta charset="UTF-8">
+
+  <!-- size content to mobile, prevent user scaling, use mobile safari's minimal UI -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- this meta tag removes the mobile safari chrome from a site added to the home screen -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
+  <!-- set title for iOS homescreen web app -->
+  <meta name="apple-mobile-web-app-title" content="Tree House">
+
+  <!-- always force latest IE rendering engine or request Chrome Frame -->
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+  <title>BNSF SanFe RailWay</title>
+
+  <!-- iOS home screen icons / find these in root/img/icons/ & add your artwork in PS/sketch/etc. -->
+  <link rel="apple-touch-icon" href="img/icons/apple-touch-icon-iphone.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-retina.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-ipad.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-touch-icon-ipad-retina.png" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/hamburgler.css">
+  <!-- in case i want to add search engine
+  <link rel="stylesheet" href="css/form.css"> -->
+  <link rel="stylesheet" href="css/site.css">
+
+</head>
+
+<body>
+
+
+  <!-- begin here -->
+
+<!-- Begin TOP SECTION  cointains "SUNDAY" and "Hamburger" Code-->
+
+ <div class="container">
+ 	<div class="row">
+ 		<div class="col-xs-2"> <h2 class = "text-left"> SUNDAY </h2> </div>
+ 		<div class="col-xs-2 col-xs-offset-7"> 
+
+<!-- THIS IS THE MENU -->
+
+<div class="mobilenav">
+  <li><a href="#"> <h2> Weekday Schedule </h2> </a></li>
+  <li><a href="#"> <h2> Saturday Schedule </h2> </a></li>
+  <li><a href="#"> <h2> Sunday Schedule </h2> </a></li>
+  <li><a href="#"> <h2>Settings</h2> </a></li>
+</div>
+
+<!-- THIS IS THE ICON -->
+
+<a href="javascript:void(0)" class="icon">
+   <div class="hamburger">
+     <div class="menui top-menu"></div>
+     <div class="menui mid-menu"></div>
+     <div class="menui bottom-menu"></div>
+   </div>
+</a>
+</div>
+
+ 	</div>
+ </div>
+ <!-- End of TOP SECTION-->
+
+ <!-- BEGIN OF "NEXT TRAIN" -->
+
+ <div class="cointainer">
+ 	<div class="row">
+ 	 		<div class="col-xs-12"> <h3 class = "text-right">Next Train</h3> </div>	
+ 	</div>
+ </div>
+<!-- END OF "NEXT TRAIN" -->
+
+<!-- BEGIN of "TIMER"-->
+<div class="cointainer">
+	<div class="row">
+	<div class="col-xs-12 ">  <h1 class= "text-center"> 00:00:00</h1>  </div>
+	</div>
+</div>
+<!-- END of "TIMER"-->
+
+<!-- BEGIN "BUTTONS 'Aurora' 'UNION'-->
+
+<!-- END "BUTTONS 'Aurora' 'UNION'-->
+
+<!-- BEGIN "Departure" "Arrival"-->
+
+<!-- END "Departure" "Arrival" -->
+
+<!-- BEGIN "TABLE"-->
+<table class="table table-striped">
+ <tr class="container">
+ 	<td class="row">
+ 		<div class="col-xs-6"> <h4 class = "text-center"> 00:00 </h4> </div>
+ 		<div class="col-xs-6"> <h4 class = "text-center"> 00:00 </h4> </div>
+ 	</td>
+ </tr>
+</table>
+
+<!-- END "TABLE" -->
+
+  <!-- js placed at the bottom of the page for faster loading -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/fastclick.min.js"></script>
+  <script src="js/hamburgler.js"></script>
+  <script src="js/site.js"></script>
+
+  <!-- LIVERELOAD SCRIPT - KILL FOR LAUNCH -->
+  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body>
+
+</html>
