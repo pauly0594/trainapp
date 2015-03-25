@@ -3,7 +3,7 @@
 }
 
 .top-animate {
-    background: #fff !important;
+    background: #3D9960 !important;
     top: 13px !important;
     -webkit-transform: rotate(45deg);
     /* Chrome, Safari, Opera */
@@ -13,7 +13,7 @@
     opacity: 0;
 }
 .bottom-animate {
-    background: #fff !important;
+    background:#3D9960 !important;
     top: 13px !important;
     -webkit-transform: rotate(-225deg);
     /* Chrome, Safari, Opera */
@@ -41,7 +41,7 @@
     background-color: #F9A530;
 }
 .menui {
-    background: #fff;
+    background: #3D9960;
     transition: 0.6s ease;
     transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);
     margin-top: 10px;
@@ -51,7 +51,8 @@
 
 .icon {
     z-index: 999;
-    position: fixed;
+    position: relative;
+    float: right;
 /*    background: rgba(0, 0, 0, 0.21);*/
     display: block;
     padding: 9px;
@@ -59,7 +60,7 @@
     width:32px;
     margin: 0px;
     top: 0;
-    left: 0;
+    /*right: 10px;*/
 }
 
 .mobilenav {
