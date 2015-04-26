@@ -19,6 +19,13 @@ $(function() {
     $(".bottom-menu").toggleClass("bottom-animate");
   });
 
+  $(function(){
+  $("table.table-responsive tr").click(function(){
+ $("table.table-responsive tr").removeClass("otherstyle");
+ $(this).addClass("otherstyle");
+});
+});
+
 }); // ./end onDocumentReady
 
 /**
