@@ -18,15 +18,18 @@ $(function() {
     $(".mid-menu").toggleClass("mid-animate");
     $(".bottom-menu").toggleClass("bottom-animate");
   });
-
-  $(function(){
-  $("table.table-responsive tr").click(function(){
- $("table.table-responsive tr").removeClass("otherstyle");
- $(this).addClass("otherstyle");
-});
-});
+  
 
 }); // ./end onDocumentReady
+
+//select item form table
+  $(function(){
+  $("table.table tr").click(function(){
+ $("table.table tr").removeClass("otherstyle td h4");
+ $(this).addClass("otherstyle th h4");
+});
+
+});
 
 /**
  *

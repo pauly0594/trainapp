@@ -17,6 +17,7 @@ p{
   color: #3D9960;
   font: 18px / 21.6px "Helvetica Neue Light", Helvetica, Arial, sans-serif;
 }
+
 h3,
 p{
    margin-top:34px;
@@ -63,11 +64,11 @@ p{
   -ms-user-select: none;  */               /* prevent copy paste, to allow, change 'none' to 'text' */
 }
 
-  tr.otherstyle 
+  tr.otherstyle td h4
 {
     background-color: #fff543;
     color:#000;
-}
+} 
 
 
 .stations {
@@ -93,13 +94,20 @@ vertical-align: middle;
   padding: 6px 12px;
   width: 126px;
 }
+.home.btn{
+  background-color: #3D9960;
+}
+.home.btn h2{
+  color: #fff;
+}
 .btn.btn-default:hover{
   background-color: #3D9960;
 }
 .btn.btn-default:hover h2{
   color:#fff;
 }
-.table-responsive>tbody{
+
+.table>tbody{
   background-color:  #8fcca6;
   max-height: 100px;
   
